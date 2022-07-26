@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3aad50f.css",
-    "main.js": "/static/js/main.54e5502e.js",
-    "static/js/787.4f0c5f53.chunk.js": "/static/js/787.4f0c5f53.chunk.js",
-    "index.html": "/index.html",
-    "main.a3aad50f.css.map": "/static/css/main.a3aad50f.css.map",
-    "main.54e5502e.js.map": "/static/js/main.54e5502e.js.map",
-    "787.4f0c5f53.chunk.js.map": "/static/js/787.4f0c5f53.chunk.js.map"
+    "main.css": "/generalElectricAssignment/static/css/main.a3aad50f.css",
+    "main.js": "/generalElectricAssignment/static/js/main.2f0c926b.js",
+    "static/js/787.4f0c5f53.chunk.js": "/generalElectricAssignment/static/js/787.4f0c5f53.chunk.js",
+    "index.html": "/generalElectricAssignment/index.html",
+    "main.a3aad50f.css.map": "/generalElectricAssignment/static/css/main.a3aad50f.css.map",
+    "main.2f0c926b.js.map": "/generalElectricAssignment/static/js/main.2f0c926b.js.map",
+    "787.4f0c5f53.chunk.js.map": "/generalElectricAssignment/static/js/787.4f0c5f53.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3aad50f.css",
-    "static/js/main.54e5502e.js"
+    "static/js/main.2f0c926b.js"
   ]
 }
