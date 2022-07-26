@@ -1,9 +1,18 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders searchBar component', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const searchBarComponent = screen.getByTestId('search-bar');
+  expect(searchBarComponent).toBeInTheDocument();
+});
+
+test('renders at least 1 BookCard after clicking search button', () => {
+  render(<App />);
+
+  const button = screen.getByTestId('search-button')
+  fireEvent.click(button)
+
+  const bookCardComponent = screen.getAllByTestId('book-card');
+  expect(bookCardComponent.length).toBeGreaterThanOrEqual(1);
 });

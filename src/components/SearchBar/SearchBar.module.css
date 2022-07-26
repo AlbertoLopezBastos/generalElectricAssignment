@@ -1,0 +1,37 @@
+.wrapper {
+	align-items: center;
+	display: grid;
+	gap: 1.5rem;
+  grid-template-columns: 4fr 1fr;
+  margin: 1rem auto;
+	width: 80vw; 
+}
+
+.input {
+	font-size: 1.5rem;
+	padding: .5rem;
+	width: 100%;
+}
+
+.btn {
+	background-color: rgb(30, 119, 30);
+	border: none;
+	border-radius: .5rem;
+	color:white;
+	font-size: 1.5rem;
+	padding: .5rem;
+	text-transform: uppercase;
+	transition: all 0.2s ease;
+}
+
+.btn:hover {
+	background-color: rgb(51, 172, 81);
+	cursor: pointer;
+}
+
+@media (max-width: 500px) {
+	.wrapper {
+		display: flex;
+		flex-direction: column;	
+	}
+}
